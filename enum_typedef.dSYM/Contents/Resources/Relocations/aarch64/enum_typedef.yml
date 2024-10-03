@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krishnarana/Desktop/Mithi/programs/enum_typedef'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z6isEveni, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x4C }
+  - { offsetInCU: 0x5D, offset: 0x5D, size: 0x8, addend: 0x0, symName: __Z6isEveni, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x4C }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4C, symBinAddr: 0x100003F28, symSize: 0x60 }
+...
