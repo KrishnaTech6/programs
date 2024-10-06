@@ -55,6 +55,8 @@ int main()
 
     cout<<"The first occ of 3 is at index "<<firstOcc(arr, n, k)<<endl;
     cout<<"The last occ of 3 is at index "<< lastOcc(arr, n, k)<<endl;
+
+    cout<<"total 3 are "<<lastOcc(arr, n, k) - firstOcc(arr, n, k) + 1 <<endl;
  
     return 0;
 }
