@@ -1,0 +1,10 @@
+# Ignore files without extensions (typically Unix executables)
+*
+# Don't ignore folders
+!*/
+
+# Keep source files like .cpp and .h
+!*.cpp
+!*.h
+
+
