@@ -14,17 +14,11 @@ int pivotElement(int arr[], int n){
     return -1;
 }
 int binarySearch(int arr[], int k, int s, int e){
-    
-    int mid = s + (e-s)/2;
-
     while(s<=e){
-        
+        int mid = s + (e-s)/2;
         if(arr[mid]==k) return mid;
         else if (arr[mid]<k) s = mid+1;
         else e = mid-1;
-
-        mid = s + (e-s)/2;
-
     }
     return -1;
 }
