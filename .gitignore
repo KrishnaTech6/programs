@@ -6,5 +6,6 @@
 # Keep source files like .cpp and .h
 !*.cpp
 !*.h
+!*.c
 
 
