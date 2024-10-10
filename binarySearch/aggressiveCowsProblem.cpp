@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 
@@ -20,11 +21,13 @@ return false;
 int aggressiveCows(int arr[], int n , int k){
     sort(arr, arr + n);
     int s = 0 ; 
-    int e, maxi= -1;
-    for (int i =0; i<n; i++){
-        maxi = max(maxi, arr[i]);   
-    }
-    e = maxi;
+    // int e, maxi= -1;
+    // for (int i =0; i<n; i++){
+    //     maxi = max(maxi, arr[i]);   
+    // }
+    // e = maxi;
+
+    int e = *max_element(arr, arr+n);
     int ans = -1;
     int mid = s + (e-s)/2;
 
