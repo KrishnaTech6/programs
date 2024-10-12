@@ -1,3 +1,7 @@
+/*
+BUBBLE SORTING
+*/
+
 #include<iostream>
 using namespace std;
 
