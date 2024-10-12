@@ -27,7 +27,7 @@ int aggressiveCows(int arr[], int n , int k){
     // }
     // e = maxi;
 
-    int e = *max_element(arr, arr+n);
+    int e = *max_element(arr, arr+n); // simplified used algorithm header file 
     int ans = -1;
     int mid = s + (e-s)/2;
 
