@@ -40,3 +40,15 @@ The repository is organized into different sections covering key DSA topics:
 Each folder contains relevant code files, explanations, and problem-solving techniques.
 
 ---
+
+## LeetCode Stats
+
+- **Username**: [KrishnaRana0607]([bit.ly/leetcodeKrishna](https://leetcode.com/u/Krishnarana0607/))
+- **Total Problems Solved**: ![LeetCode Stats](https://img.shields.io/badge/dynamic/json?style=flat-square&color=brightgreen&label=Problems%20Solved&query=solvedQuestionCount&url=https://leetcode-stats-api.herokuapp.com/krishnarana0607)
+- **Ranking**: ![LeetCode Rank](https://img.shields.io/badge/dynamic/json?style=flat-square&color=blue&label=Ranking&query=ranking&url=https://leetcode-stats-api.herokuapp.com/krishnarana0607)
+
+## LeetCode Profile
+
+Check out my LeetCode profile to see all the problems I've solved and the contests I've participated in:
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/krishnarana0607/)
