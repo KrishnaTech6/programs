@@ -51,4 +51,4 @@ Each folder contains relevant code files, explanations, and problem-solving tech
 
 Check out my LeetCode profile to see all the problems I've solved and the contests I've participated in:
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/krishnarana0607/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/krishnarana0607/)
