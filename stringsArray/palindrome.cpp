@@ -9,6 +9,14 @@ char toLowerCase(char ch){
     }
 }
 
+char toUpperCase(char ch){
+    if(ch>='A' && ch<='Z' ) return ch;
+    else{
+        char temp = ch -'a'+'A';  //ch-'A' is the difference plus 'a', converts to that lowerCase
+        return temp;
+    }
+}
+
 int isPalindrome(char arr[], int n ){
     int s = 0 , e= n-1;
     while(s<=e){
@@ -27,6 +35,8 @@ int main()
     cout<<"toLowerCase: "<<toLowerCase('z')<<endl;
     cout<<"toLowerCase: "<<toLowerCase('G')<<endl;
     
+    cout<<"toLowerCase: "<<toUpperCase('z')<<endl;
+    cout<<"toLowerCase: "<<toUpperCase('G')<<endl;
  
     return 0;
 }
