@@ -4,23 +4,22 @@ using namespace std;
 
 int main()
 {
-    string s = "Can i call you mine?";
-    int i = 0, j = 0;
+    string s = "Can i call you?";
+    int start = 0, end = 0;
     string s2;
     
-    while (j < s.length()) {
-        string temp;
-        while (j < s.length() && s[j] != ' ') {
-            temp.push_back(s[j]);  // Push the current character
-            j++;
+    while (end <= s.length()) {
+        if(end==s.length() || s[end]==' '){
+            for(int k = end-1 ;k>= start; k--)
+            {
+                s2.push_back(s[k]);
+            }
+            if(end < s.length()){
+                s2.push_back(' ');
+            }
+            start = end+1;
         }
-        reverse(temp.begin(), temp.end());
-        s2.insert(i, temp);  // Insert the word into s2
-        if (j < s.length()) {
-            s2.push_back(' ');  // Add space between words
-        }
-        j++;  // Move to the next word
-        i = s2.length();  // Update index to the end of s2
+        end++;
     }
 
     cout << s2 << endl;
