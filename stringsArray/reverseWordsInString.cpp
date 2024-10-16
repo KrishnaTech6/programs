@@ -5,24 +5,16 @@ using namespace std;
 int main()
 {
     string s = "Can i call you?";
-    int start = 0, end = 0;
-    string s2;
     
-    while (end <= s.length()) {
-        if(end==s.length() || s[end]==' '){
-            for(int k = end-1 ;k>= start; k--)
-            {
-                s2.push_back(s[k]);
-            }
-            if(end < s.length()){
-                s2.push_back(' ');
-            }
-            start = end+1;
+    int start = 0 ; 
+    for (int end =0 ; end<=s.size(); end++){
+        if(end==s.size() || s[end]== ' '){
+            reverse(s.begin()+start, s.begin()+end);
+            start= end+1;
         }
-        end++;
     }
 
-    cout << s2 << endl;
+    cout << s << endl;
 
     return 0;
 }
