@@ -4,7 +4,6 @@
 using namespace std;
 
 string longestDiverseString(int a, int b, int c) {
-        int high = max(max(a,b), max(b,c));
         priority_queue<pair<int , char>> maxHeap; 
         if(a>0) maxHeap.push({a, 'a'});
         if(b>0) maxHeap.push({b, 'b'});
@@ -18,13 +17,13 @@ string longestDiverseString(int a, int b, int c) {
                 auto it2 = maxHeap.top();
                 maxHeap.pop();
 
-                s += it2.first; 
-                if(--it2.second) maxHeap.push({it2.first, it2.second});
+                s += it2.second; 
+                if(--it2.first) maxHeap.push({it2.first, it2.second});
                 maxHeap.push({it1.first, it1.second});
 
             }else{
                 s += it1.second;
-                if(--it1.first>0) maxHeap.push({it1.first, it1.second}); 
+                if(--it1.first) maxHeap.push({it1.first, it1.second}); 
             }
         }
         return s;
@@ -32,6 +31,6 @@ string longestDiverseString(int a, int b, int c) {
  
 int main()
 {
-    cout<< longestDiverseString(1,2,3);
+    cout<< longestDiverseString(1,1,7);
     return 0;
 }
