@@ -14,7 +14,7 @@ int countMaxOrSubsets(vector<int>& nums) {
             int ans;
             for (int j = i; j<n; j++){
                 ans += nums[i]|nums[j];
-                maxHeap.push( { count++, ans });
+                maxHeap.push({count++, ans});
             }
         }
         int c = 1; 
