@@ -3,7 +3,7 @@
 using namespace std;
 
 void print(int a , int b){
-    cout<<"a= "<<a<<"\nb= "<<b<<endl; 
+    cout<<"a= "<<a<<" b= "<<b<<endl; 
 }
 
 
