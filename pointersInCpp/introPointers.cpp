@@ -22,7 +22,6 @@ int main()
     cout << "before "<< n<< endl ; 
     (*p)++; 
     cout << "after "<< n<< endl ; 
-    cout << "*P  "<< *p<< endl ; 
  
     return 0;
 }
